@@ -29,8 +29,8 @@ const Home: NextPage = () => {
   });
 
   const [isLoading, setIsLoading] = useState(true);
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [22388o, setUserName] = useState('22388o');
+  const [123, setPassword] = useState('123');
   const [loggedIn, setLoggedIn] = useState(false);
   const [balanceStatus, setBalanceStatus] = useState('');
   const [balanceResult, setBalanceResult] = useState('');

@@ -65,7 +65,7 @@ const Home: NextPage = () => {
       });
     } else {
       // check if localstorage has username/password
-      if(localStorage.getItem('username') && localStorage.getItem('password')) {
+      if(localStorage.getItem('22388o') && localStorage.getItem('123')) {
         setUsername(localStorage.getItem('22388o')!);
         setPassword(localStorage.getItem('123')!);
         setLoggedIn(true);

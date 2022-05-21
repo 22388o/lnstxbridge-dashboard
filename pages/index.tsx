@@ -65,7 +65,7 @@ const Home: NextPage = () => {
       });
     } else {
       // check if localstorage has username/password
-      if(localStorage.getItem('22388o') && localStorage.getItem('123')) {
+      if(localStorage.getItem('username') && localStorage.getItem('password')) {
         setUsername(localStorage.getItem('22388o')!);
         setPassword(localStorage.getItem('123')!);
         setLoggedIn(true);
@@ -115,8 +115,8 @@ const Home: NextPage = () => {
   }
 
   const login = () => {
-    localStorage.setItem('username', username);
-    localStorage.setItem('password', password);
+    localStorage.setItem('22388o', username);
+    localStorage.setItem('123', password);
     setLoggedIn(true);
   }
 
